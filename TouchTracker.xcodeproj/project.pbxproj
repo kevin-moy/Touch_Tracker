@@ -19,6 +19,9 @@
 		471A975C19B14BBD00B2371B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471A974419B14BBD00B2371B /* UIKit.framework */; };
 		471A976419B14BBD00B2371B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 471A976219B14BBD00B2371B /* InfoPlist.strings */; };
 		471A976619B14BBD00B2371B /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471A976519B14BBD00B2371B /* TouchTrackerTests.m */; };
+		4723625519B56E6E0022F6F0 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 4723625419B56E6E0022F6F0 /* Line.m */; };
+		4723625819B56E9E0022F6F0 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4723625719B56E9E0022F6F0 /* DrawView.m */; };
+		4723625B19B56EC30022F6F0 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4723625A19B56EC30022F6F0 /* DrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		471A976119B14BBD00B2371B /* TouchTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		471A976319B14BBD00B2371B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		471A976519B14BBD00B2371B /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
+		4723625319B56E6E0022F6F0 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		4723625419B56E6E0022F6F0 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		4723625619B56E9E0022F6F0 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		4723625719B56E9E0022F6F0 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		4723625919B56EC30022F6F0 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		4723625A19B56EC30022F6F0 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				471A974F19B14BBD00B2371B /* AppDelegate.h */,
 				471A975019B14BBD00B2371B /* AppDelegate.m */,
+				4723625419B56E6E0022F6F0 /* Line.m */,
+				4723625319B56E6E0022F6F0 /* Line.h */,
+				4723625619B56E9E0022F6F0 /* DrawView.h */,
+				4723625719B56E9E0022F6F0 /* DrawView.m */,
+				4723625919B56EC30022F6F0 /* DrawViewController.h */,
+				4723625A19B56EC30022F6F0 /* DrawViewController.m */,
 				471A975219B14BBD00B2371B /* Images.xcassets */,
 				471A974719B14BBD00B2371B /* Supporting Files */,
 			);
@@ -240,6 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				471A975119B14BBD00B2371B /* AppDelegate.m in Sources */,
+				4723625B19B56EC30022F6F0 /* DrawViewController.m in Sources */,
+				4723625519B56E6E0022F6F0 /* Line.m in Sources */,
+				4723625819B56E9E0022F6F0 /* DrawView.m in Sources */,
 				471A974D19B14BBD00B2371B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +455,7 @@
 				471A976B19B14BBD00B2371B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471A976C19B14BBD00B2371B /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +464,7 @@
 				471A976E19B14BBD00B2371B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
